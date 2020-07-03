@@ -1,0 +1,10 @@
+<?php
+$key = array("param1, param2");
+$value = array("valeur1, valeur2");
+
+
+foreach ($_GET as $key => $value){
+echo "$key : $value";
+}
+return;
+?>
